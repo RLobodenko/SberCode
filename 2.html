@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+        <meta charset="utf-8">
+        <title></title>
+       
+        <style>
+		body { font-size: 80px; 
+			text-align:center;
+			}
+			
+			.list {
+			width: 860px;
+			height: 100px;
+			font-size: 50px;
+			}
+			
+			.user {
+			
+			 height: 100px;
+			}
+			
+			button {
+			background-color:grey;
+			width: 500px;
+			height:150px;
+			}
+			
+			textarea {
+			font-size: 50px;
+			
+			}
+		</style>
+</head>
+
+<body>
+<header>
+<pre><a href="index.html"><img src="4.png" width="100px" height="100px"></a>    <strong>Добавление<br> сертификата</strong> <img src="3.svg" width="150px" height="150px"></pre>
+      
+        </header>
+		<article>
+		<span><font size="50px">Какой ID использовать для форматирования<br>сертификата?</font></span><br>
+		<select name="list"  class="list" width="100px">
+					<option value="1">Выбрать</option>
+					<option value="2">Сбербанк</option>
+					<option value="3">МФЦ</option>
+				</select><BR><BR>
+				<select name="list" class="list" width="100px" disabled>
+					<option value="2">Выбрать</option>
+				</select><br>
+				<span><font size="50px">VC issuer</font></span><br>
+				<textarea ROWS=6 COLS=30 >{
+     Head:{}
+     Body:{}
+     Sigs:[{}.{}]
+}</textarea>
+<span><font size="50px">Название сертификата</font></span><br>
+<input type="text" class="user" size="120"><br><br><br>
+<BUTTON width="300px"><font color="white"><font size="100px">Добавить</font></font></BUTTON>
+		</article>
+		<footer>
+		</footer>
+</body>
+<html>
